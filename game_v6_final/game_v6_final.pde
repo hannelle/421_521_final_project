@@ -83,7 +83,7 @@ void draw() {
    inString = trim(inString);
    // convert to an int and map to the screen height:
    float inByte = float(inString); 
-   float inByte2 = map(inByte, 1800, 2150, -2, 2);
+   float inByte2 = map(inByte, 1300, 1800, -2, 2);
     // -----------------
     
 {
@@ -127,6 +127,7 @@ void draw() {
       gameOver = true;
     }
   }
+}
 }
  
 void mousePressed() {

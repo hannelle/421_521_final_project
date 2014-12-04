@@ -35,21 +35,15 @@ void loop() {
  
   //thresholding
   
-  if (timeDec>=1800)
+  if (timeDec>=1300)
   {
     analogWrite(A1,0);
     analogWrite(A3,0);
     analogWrite(A5,1024);
   }
-  if (timeDec>=2100)
+  if (timeDec>=1500)
   {
     analogWrite(A1,0);
-    analogWrite(A3,1024);
-    analogWrite(A5,0);
-  }
-  if (timeDec>=2400)
-  {
-    analogWrite(A1,1024);
     analogWrite(A3,1024);
     analogWrite(A5,0);
   }
